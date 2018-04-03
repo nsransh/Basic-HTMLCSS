@@ -1,0 +1,125 @@
+.utama {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+/*---------------------------------*/
+
+.utama .atas ul li {
+  display: inline;
+  list-style: none;
+}
+
+.utama .atas ul li:nth-child(2) , .utama .atas ul li:nth-child(4) {
+  color: red;
+}
+
+.utama .atas ul li:nth-child(3) {
+  color: pink;
+}
+
+.utama .atas ul li:first-child{ /*list pertama dalam 1 list, kalau make "li : first-of-type" berarti setiap list yang pertama*/
+  color: pink;
+}
+
+.utama .atas ul li:last-child{
+  color: pink;
+}
+
+.utama .atas .logo , .utama .atas .list{
+  width: 50%;
+}
+
+.utama .atas .logo {
+  float: left;
+}
+
+.utama .atas .list {
+  float: right;
+  padding-right: none;
+  text-align: right;
+  padding-top: 10px;
+}
+
+/*---------------------------------*/
+
+.utama .tengah .biru {
+  width: 70%;
+  background-color: blue;
+  float: left;
+  height: 200px;
+  position: relative;
+}
+
+.utama .tengah .biru .box{
+  position: absolute;
+  top: 100px;
+}
+
+.utama .tengah .kuning{
+  width: 25%;
+  background-color: yellow;
+  float: right;
+  height: 200px;
+  margin-left: 5%;
+}
+
+/*---------------------------------*/
+
+.utama .bawah .judul {
+  width: 70%
+}
+
+.utama .bawah .judul .judul1 , .bawah .judul .judul2{
+  width: 45%;
+}
+
+.utama .bawah .judul .judul1 button , .bawah .judul .judul2 button{
+  background-color: red;
+}
+
+.utama .bawah .judul .judul1 {
+  float: left;
+  margin-right: 5%;
+}
+
+.utama .bawah .judul .judul2 {
+  margin-left: 5%;
+  float: left;
+}
+
+.utama .bawah .quotes {
+  width: 20%;
+  float: right;
+  margin : 0% 2.5%
+}
+
+blockquote {
+  border-left: 5px solid pink;
+  background: white;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 22px;
+
+}
+
+blockquote:before {
+  content: open-quote;
+  margin-right: 0,1em;
+  font-size: 4em;
+  color: pink;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/*---------------------------------*/
+
+footer {
+  border-top: 2px solid black;
+  margin-top: 5px;
+}
